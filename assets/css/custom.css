@@ -1,0 +1,32 @@
+:root {
+	--michblue: #00274c;
+	--michgold: #ffcb0b;
+	--primary-dark: var(--michblue);
+}
+
+
+.header {
+	background-color: var(--michblue);
+}
+
+.header__title__link {
+	color: var(--michgold);
+}
+
+.menu__items__item__link {
+	color: var(--michgold);
+}
+
+.footer {
+	background-color: var(--michblue);
+}
+
+.menu__items__item__link:hover,
+.menu__items__item__link:focus {
+	color: var(--michgold);
+}
+
+.ripple-btn {
+	background-color: var(--michgold);
+	color: var(--michblue);
+}
