@@ -9,5 +9,32 @@ theme = "terrassa"      # Your Hugo theme
 
 [params.cta] # Call To Action
     show = true
-    cta = "Contact"  # Text message of the CTA
-    link = "contact" # Relative URL
+    cta = "Donate"  # Text message of the CTA
+    link = "https://leadersandbest.umich.edu/find/#!/give/basket/fund/335705" # Absolute URL
+
+[params.contact]
+    email = "kochsc@umich.edu"
+
+[params.posts]
+    showAuthor = true
+    showDate = true
+    showTags = true
+    dateFormat = "Monday, Jan, 2006"
+
+[params.separator]
+    show = true
+
+[params.form] # Contact form
+    netlify = false
+    action = "https://formspree.io/your@email.com"
+    method = "POST"
+    inputNameName = "name"
+    inputNameLabel = "Name"
+    inputNamePlaceholder = "Your name"
+    inputEmailName = "email"
+    inputEmailLabel = "Email"
+    inputEmailPlaceholder = "Your email"
+    inputMsgName = "message"
+    inputMsgLabel = "Write something"
+    inputMsgLength = 750
+    inputSubmitValue = "Send"

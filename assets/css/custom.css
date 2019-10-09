@@ -2,6 +2,7 @@
 	--michblue: #00274c;
 	--michgold: #ffcb0b;
 	--primary-dark: var(--michblue);
+	--primary-text: var(--michblue);
 }
 
 
@@ -29,4 +30,10 @@
 .ripple-btn {
 	background-color: var(--michgold);
 	color: var(--michblue);
+}
+
+.ripple-btn:hover,
+.ripple-btn:focus {
+	background-color: var(--michgold);
+	color: var(--white);
 }
