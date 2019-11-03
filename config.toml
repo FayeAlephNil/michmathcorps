@@ -8,7 +8,9 @@ paginate = 7            # The numbers of posts per page
 theme = "terrassa"      # Your Hugo theme
 
 [params]
-    logo = "https://lsa.umich.edu/content/dam/michigan-lsa/admin/logos/math-logo.png"
+	description = ""
+	favicon = "favicon.ico"
+	logo = "math-logo.png"
 
 [params.cta] # Call To Action
     show = true

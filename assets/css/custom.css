@@ -6,6 +6,29 @@
 }
 
 
+.hero .slide {
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 90vh;
+  transition: opacity 1s ease-in-out;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+}
+.hero .slide.show {
+  opacity: 1;
+}
+
+.header__title__logo {
+	max-width: 20rem;
+	vertical-align: middle;
+	width: 100%;
+}
+
 .header {
 	background-color: var(--michblue);
 }
@@ -27,9 +50,17 @@
 	color: var(--michgold);
 }
 
+.cta__btn {
+	border-style: solid;
+	border-width: thick;
+	border-color: var(--michblue);
+}
+
 .ripple-btn {
 	background-color: var(--michgold);
 	color: var(--michblue);
+	font-weight: bold;
+	font-size: 100%;
 }
 
 .ripple-btn:hover,
@@ -37,3 +68,4 @@
 	background-color: var(--michgold);
 	color: var(--white);
 }
+
