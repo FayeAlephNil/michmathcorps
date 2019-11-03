@@ -6,6 +6,23 @@
 }
 
 
+.hero .slide {
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 90vh;
+  transition: opacity 1s ease-in-out;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+}
+.hero .slide.show {
+  opacity: 1;
+}
+
 .header {
 	background-color: var(--michblue);
 }
@@ -37,3 +54,4 @@
 	background-color: var(--michgold);
 	color: var(--white);
 }
+
