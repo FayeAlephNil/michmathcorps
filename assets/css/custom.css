@@ -30,8 +30,31 @@
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0;
+  vertical-align: middle;
 }
 .hero .slide.show {
+  opacity: 1;
+}
+
+.hero .caption {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  top: 90vh;
+  left: 0;
+  height: 10vh;
+  transition: opacity 1s ease-in-out;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--michblue);
+  opacity: 0;
+  color: white;
+  text-align: center;
+  display: flex;
+  display: -webkit-flex;
+}
+.hero .caption.show {
   opacity: 1;
 }
 
