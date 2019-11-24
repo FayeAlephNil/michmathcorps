@@ -31,7 +31,7 @@ theme = "terrassa"      # Your Hugo theme
 
 [params.form] # Contact form
     netlify = false
-    action = "https://formspree.io/your@email.com"
+    action = "https://formspree.io/xvogppzo"
     method = "POST"
     inputNameName = "name"
     inputNameLabel = "Name"
@@ -40,6 +40,6 @@ theme = "terrassa"      # Your Hugo theme
     inputEmailLabel = "Email"
     inputEmailPlaceholder = "Your email"
     inputMsgName = "message"
-    inputMsgLabel = "Write something"
+    inputMsgLabel = "Message"
     inputMsgLength = 750
     inputSubmitValue = "Send"
