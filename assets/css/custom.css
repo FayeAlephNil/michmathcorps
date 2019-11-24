@@ -6,7 +6,7 @@
 }
 
 .menu__items {
-	justify-content: right;
+	justify-content: flex-end;
 }
 
 .menu__items__item {
