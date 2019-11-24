@@ -5,6 +5,18 @@
 	--primary-text: var(--michblue);
 }
 
+.menu__items {
+	justify-content: right;
+}
+
+.menu__items__item {
+	margin: 0 3.0rem;
+}
+
+.menu__items__item__link {
+	font-weight: 500;
+	font-size: 14pt;
+}
 
 .hero .slide {
   z-index: 0;
