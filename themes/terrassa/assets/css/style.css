@@ -509,6 +509,7 @@
 	grid-area: copy;
 	justify-content: flex-end;
 	padding: 1.75rem;
+	color: var(--white)
 }
 
 .copy > p {
